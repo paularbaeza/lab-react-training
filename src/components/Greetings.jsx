@@ -2,13 +2,6 @@ import React from 'react'
 
 function Greetings(props) {
     const {lang} = props
-    // const langGreeting = {
-    //     de: 'Hallo',
-    //     fr: 'Bonjour',
-    //     es: 'Hola',
-    //     en: 'Hello',
-    //   };
-
       const langGreeting = (lang) => {
         if (lang ==="de"){
             return "Hallo"
